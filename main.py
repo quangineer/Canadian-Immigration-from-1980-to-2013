@@ -4,6 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np 
 
 dataset = 'canada.xlsx'
-df = pd.read_csv('canada.xlsx')
+df = pd.read_excel(dataset)
 
 print (df)
